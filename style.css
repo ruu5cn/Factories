@@ -1,0 +1,51 @@
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+#button {
+    height: 10%;
+    width: 30%;
+    border: solid 1.5px;
+    border-radius:20%;
+    text-align: center;
+    float: left;
+    margin: 9%;
+    background: red;
+    font-size: 20px;
+}
+.back {
+    margin-left: 35%;
+}
+.header {
+    text-align: center;
+}
+td {
+    border:1px solid;
+    border-color: #545454;
+    width:60px;
+    height:40px;
+    text-align: center;    
+}
+
+.corner {
+    background: #c1bfb2;
+    font-style: red;
+}
+
+table {
+    margin: auto auto;
+}
+.left {
+    height: 200px;
+    width: 100px;
+    background: red;
+    border-radius: 5px;
+    float: left;
+}
+ p {
+    text-align: center;
+ }
+ .row {
+    background: red;
+ }
+
