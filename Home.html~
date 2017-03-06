@@ -6,7 +6,6 @@
 </head>
 <body>
     <script src='script.js'></script>
-    <script src="jQuery.js"></script>
     <div class="homePage">
         <h1 class="title">Factories</h1>
         <div class="ruleButton" id="button">Rules</div>
