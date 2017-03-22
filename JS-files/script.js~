@@ -41,22 +41,22 @@ var list = ["A","B","C","D","E","F","G","H","I","J"];
                 var bid = 0;
                 var askBid = bid + 1;
                 var redo = true;
-                var ask1 = prompt(player1 + ", will you put in a bid for factory " + list[i] + "? You would have to bid " + askBid + ", and you have " + money1 + "type in yes or pass").toLowerCase();
+                var ask1 = prompt(player1 + ", will you put in a bid for factory " + list[i] + "? You would have to bid " + askBid + ", and you have " + money1,"type in yes or pass").toLowerCase();
                 if (ask1 === "yes") {
                     bid += 1;
                     askBid = bid + 1;
-                    ask2 = prompt(player2 + ", will you put in a bid for factory " + list[i] + "? You would have to bid " + askBid + ", and you have " + money2 + "type in yes or pass").toLowerCase();
+                    ask2 = prompt(player2 + ", will you put in a bid for factory " + list[i] + "? You would have to bid " + askBid ", and you have " + money2,"type in yes or pass").toLowerCase();
                     if (ask2 === "yes") {
                         bid += 1;
                         askBid = bid + 1;
                         //run the while loop
                         //other comment to draw my attention
                         while(redo) {
-                            ask1 = prompt(player1 + ", will you rebid for factory " + list[i] + "? Your bid would be " + askBid + " and you have " + money1 + "type in yes or pass").toLowerCase();
+                            ask1 = prompt(player1 + ", will you rebid for factory " + list[i] + "? Your bid would be " + askBid + " and you have " + money1, "type in yes or pass").toLowerCase();
                             if (ask1 === "yes") {
                                 bid += 1;
                                 askBid = bid + 1;
-                                ask2 = prompt(player2 + ", will you rebid for factory " + list[i] + "? Your bid would be " + askBid + " and you have " + money2 + "type in yes or pass").toLowerCase();
+                                ask2 = prompt(player2 + ", will you rebid for factory " + list[i] + "? Your bid would be " + askBid + " and you have " + money2, "type in yes or pass").toLowerCase();
                                 if (ask2 === "yes") {
                                     bid += 1;
                                     askBid = bid + 1;
