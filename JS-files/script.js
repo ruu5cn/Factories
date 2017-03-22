@@ -83,7 +83,7 @@ var list = ["A","B","C","D","E","F","G","H","I","J"];
                         confirm(player1 + "has " + money1 + "$");
                     }
                 } else if (ask1 === "pass") {
-                    ask2 = prompt(player2 + ", will you put in a bid for factory " + list[i] + "? You would have to bid " + askBid,"type in yes or pass").toLowerCase();
+                    ask2 = prompt(player2 + ", will you put in a bid for factory " + list[i] + "? You would have to bid " + askBid + "type in yes or pass").toLowerCase();
                     if (ask2 === "yes") {
                         bid += 1;
                         factory2.push(list[i]);
@@ -99,4 +99,4 @@ var list = ["A","B","C","D","E","F","G","H","I","J"];
             confirm(player2 + "'s factories are " + factory2);
             confirm(player2 + " has " + money2 + "$");
             confirm("The factories up for grabs are " + nobodies);
-        }
+        };
